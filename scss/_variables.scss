@@ -1,0 +1,79 @@
+/*
+======================================================================
+  Colors
+======================================================================
+*/
+
+// quick defaults
+$black: #000;
+ $grey: #808080;
+$white: #fff;
+
+// palette
+      $primary-color: ;
+    $secondary-color: ;
+   $background-color: ;
+       $accent-color: ;
+    $highlight-color: ;
+        $alert-color: ;
+    $selection-color: #b3d4fc;
+
+// text
+  $default-color: ;
+     $link-color: ;
+  $heading-color: ;
+
+/*
+======================================================================
+  Fonts
+======================================================================
+*/
+
+// font families
+  $heading-type-family: ;
+     $body-type-family: ;
+$monospace-type-family: monaco, courier, monospace, sans-serif;
+
+// font sizes (px)
+     $h1-px: 83px;
+     $h2-px: 67px;
+     $h3-px: 50px;
+     $h4-px: 37px;
+     $h5-px: 28px;
+     $h6-px: 21px;
+$default-px: 16px;
+  $small-px: 12px;
+
+// font sizes (rem)
+     $h1-rem: 8.3rem;
+     $h2-rem: 6.7rem;
+     $h3-rem: 5rem;
+     $h4-rem: 3.7rem;
+     $h5-rem: 2.8rem;
+     $h6-rem: 2.1rem;
+$default-rem: 1.6rem;
+  $small-rem: 1.2rem;
+
+// font weights
+   $thin-weight: 100;
+$default-weight: 400;
+  $heavy-weight: 700;
+
+/*
+======================================================================
+  Dimensions
+======================================================================
+*/
+
+// breakpoints
+ $mobile-portrait-breakpoint: 320px;
+$mobile-landscape-breakpoint: 480px;
+ $tablet-portrait-breakpoint: 768px;
+$tablet-landscape-breakpoint: 1024px;
+         $desktop-breakpoint: 1280px;
+   $large-desktop-breakpoint: 1440px;
+  $larger-desktop-breakpoint: 1920px;
+ $largest-desktop-breakpoint: 2560px;
+
+// maximums
+$container-max: 1280px;

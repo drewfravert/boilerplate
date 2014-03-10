@@ -1,0 +1,63 @@
+/*
+======================================================================
+  Global Styles
+======================================================================
+*/
+
+// correct the display of semantic elements
+article, aside, details, figcaption,
+figure, footer, header, hgroup,
+main, nav, section, summary {
+  display: block;
+}
+
+// contain oversized elements
+audio, canvas, embed, input, img,
+object, select, textarea, video, iframe {
+  max-width: 100%;
+}
+
+// set media display type
+audio, canvas, img, video { display: block; }
+
+// placeholder text
+input, textarea {
+  @include placeholder {}
+}
+
+// text selection
+::-moz-selection { background-color: $selection-color; color: inherit; text-shadow: inherit; }
+     ::selection { background-color: $selection-color; color: inherit; text-shadow: inherit; }
+
+// set focus state
+:focus { outline: inherit; }
+
+// set target state
+:target {}
+
+// set page defaults
+html {
+  background: white;
+  font-size: 10px;
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  font-size: $default-px;
+  font-size: $default-rem;
+  color: $default-color;
+  line-height: 1.5;
+  -webkit-font-smoothing: subpixel-antialiased;
+  &.locked { overflow: hidden; }
+}
+
+// common margin-bottom for vertical rhythm
+ul, ol, dl, p, blockquote, pre,
+fieldset, table, hr {
+  margin-bottom: 1em;
+}
+
+// remove opening/closing margins
+* > :first-child { margin-top: 0; }
+* > :last-child { margin-bottom: 0; }

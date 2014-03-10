@@ -1,0 +1,23 @@
+/*
+======================================================================
+  Button Styles
+======================================================================
+*/
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  @include appearance(none);
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {}
+  &:active {}
+  &:disabled {
+    background-color: $grey;
+    opacity: 0.5;
+  }
+}

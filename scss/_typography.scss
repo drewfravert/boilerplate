@@ -1,0 +1,70 @@
+/*
+======================================================================
+  Typography
+======================================================================
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.67em;
+  font-family: $heading-type-family;
+  line-height: 1;
+}
+h1 {
+  font-size: $h1-px;
+  font-size: $h1-rem;
+}
+h2 {
+  font-size: $h2-px;
+  font-size: $h2-rem;
+}
+h3 {
+  font-size: $h3-px;
+  font-size: $h3-rem;
+}
+h4 {
+  font-size: $h4-px;
+  font-size: $h4-rem;
+}
+h5 {
+  font-size: $h5-px;
+  font-size: $h5-rem;
+}
+h6 {
+  font-size: $h6-px;
+  font-size: $h6-rem;
+}
+a {
+  color: $link-color;
+  text-decoration: underline;
+  cursor: pointer;
+  &:visited {}
+  &:hover {}
+  &:active {}
+  &:focus {}
+}
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+small {
+  font-size: $small-px;
+  font-size: $small-rem;
+  line-height: 1;
+}
+blockquote, q {}
+sup, sub {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup { top: -0.5em; }
+sup { bottom: -0.25em; }
+pre, code, kbd, samp {
+  font-family: $monospace-type-family;
+  word-wrap: break-word;
+}
+pre { white-space: pre-wrap; }
+ins {
+  background: #ddd;
+  background: rgba($black,0.1);
+  text-decoration: none;
+}
