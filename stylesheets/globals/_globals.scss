@@ -1,0 +1,73 @@
+/*
+======================================================================
+  Global Styles
+======================================================================
+*/
+
+// correct display undefined for HTML5 elements
+article, aside, details, figcaption,
+figure, footer, header, hgroup, main,
+menu, nav, section, summary {
+  display: block;
+}
+
+// contain oversized elements
+audio, canvas, embed, input, img,
+object, select, textarea, video, iframe {
+  max-width: 100%;
+}
+
+// baseline display type
+audio, canvas, img, video, progress { display: block; }
+
+// placeholder text
+input, textarea {
+  @include placeholder {}
+}
+
+// selection state
+::-moz-selection {
+  background-color: inherit;
+  color: inherit;
+  text-shadow: inherit;
+}
+::selection {
+  background-color: inherit;
+  color: inherit;
+  text-shadow: inherit;
+}
+
+// focus state
+:focus { outline: inherit; }
+
+// target state
+:target {}
+
+// page defaults
+html {
+  background: $white;
+  font-size: 10px;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  background-color: $white;
+  font-size: $base-px;
+  font-size: $base-rem;
+  color: $base-color;
+  line-height: $base-lh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  position: relative;
+}
+
+// common bottom margin for vertical rhythm
+ul, ol, dl, p, blockquote,
+pre, fieldset, table, hr {
+  margin-bottom: 1em;
+}
+
+// remove opening/closing margins
+* > :first-child { margin-top: 0; }
+* > :last-child { margin-bottom: 0; }

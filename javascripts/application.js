@@ -14,7 +14,7 @@
   /* App Name                   */
   /******************************/
 
-  var APP_NAME = {
+  var APP = {
 
     models: {},
     views: {},
