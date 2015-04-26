@@ -1,57 +1,36 @@
 /*
 ======================================================================
-  Project Name: 
+  Project Name:
   Project URL: http://
-  Theme Name: 
-  Author: 
-  Author URL: 
-  Version: 
+  Version:
 ======================================================================
 */
 
-// mixins
+// libraries
 @import "bourbon";
+
+// variables & mixins
+@import "scss/variables";
 @import "scss/mixins";
 
-// variables
-@import "scss/variables";
-
-// resets
+// reset
 @import "scss/resets/universal";
-// @import "scss/resets/normalize";
-// @import "scss/resets/yahoo";
-// @import "scss/resets/ericmeyer";
-// @import "scss/resets/html5doctor";
 
-// typography
+// typography & icons
 @import "scss/typography";
-
-// icons
 @import "scss/icons";
 
 // globals
-@import "scss/layouts/global";
-@import "scss/layouts/header";
-@import "scss/layouts/main";
-@import "scss/layouts/footer";
+@import "scss/global";
+
+// layouts
+@import "scss/layouts/manifest";
 
 // modules
-@import "scss/modules/logos";
-@import "scss/modules/photos";
-@import "scss/modules/videos";
-@import "scss/modules/maps";
-@import "scss/modules/menus";
-@import "scss/modules/lists";
-@import "scss/modules/modals";
-@import "scss/modules/forms";
-@import "scss/modules/buttons";
-@import "scss/modules/tables";
+@import "scss/modules/manifest";
 
-// import misc
-@import "scss/misc/misc";
-@import "scss/misc/lang";
-@import "scss/misc/print";
-@import "scss/misc/animations";
+// misc
+@import "scss/misc/manifest";
 
-// import debug
+// debugger
 // @import "scss/misc/holmes";
