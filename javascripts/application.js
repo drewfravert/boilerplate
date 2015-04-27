@@ -14,7 +14,7 @@
   /* App Name                   */
   /******************************/
 
-  var APP = {
+  var App = {
 
     models: {},
     views: {},
@@ -29,7 +29,7 @@
     /********************************/
 
     // bind app to window
-    window.APP = APP;
+    window.App = App;
 
     // document load
     $(document).ready(function() {
