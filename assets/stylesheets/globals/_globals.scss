@@ -22,15 +22,10 @@ audio, canvas, img, video, progress { display: block; }
 
 // placeholder text
 input, textarea {
-  @include placeholder {}
+  ::placeholder {}
 }
 
 // selection state
-::-moz-selection {
-  background-color: inherit;
-  color: inherit;
-  text-shadow: inherit;
-}
 ::selection {
   background-color: inherit;
   color: inherit;
@@ -58,7 +53,6 @@ body {
   color: $base-color;
   line-height: $base-lh;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
   position: relative;
 }
 

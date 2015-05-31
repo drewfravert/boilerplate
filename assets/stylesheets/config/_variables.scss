@@ -4,7 +4,7 @@
 ======================================================================
 */
 
-$app-prefix: "app-";
+$app-prefix: "";
 
 /*
 ======================================================================
@@ -24,39 +24,39 @@ $white: #fff;
  $brand-dark: darken($brand-base, 10);
 $brand-light: lighten($brand-base, 10);
 
-$brand-complement;
-$brand-black;
-$brand-white;
+$brand-complement: $black;
+$brand-black: $black;
+$brand-white: $black;
 
 // text
 
-    $text-base;
-   $text-hover;
+    $text-base: $black;
+   $text-hover: $black;
 
- $heading-base;
-$heading-hover;
+ $heading-base: $black;
+$heading-hover: $black;
 
-    $link-base;
-   $link-hover;
+    $link-base: $black;
+   $link-hover: $black;
 
 // background
 
-$background-base;
+$background-base: $black;
 
 // border
 
-$border-base;
+$border-base: $black;
 
 // shadow
 
-$shadow-base;
+$shadow-base: $black;
 
 // notification
 
- $notice;
-$success;
-$warning;
-  $error;
+ $notice: $black;
+$success: $black;
+$warning: $black;
+  $error: $black;
 
 // social
 
@@ -151,9 +151,9 @@ $grid-spacing: 0;
 
 // page
 
-$width-base;
-$width-min;
-$width-max;
+$width-base: 0;
+$width-min: 0;
+$width-max: 0;
 
 /*
 ======================================================================
@@ -163,14 +163,14 @@ $width-max;
 
 // box
 
-$box-shadow-inner-base;
-$box-shadow-outer-base;
+$box-shadow-inner-base: 0;
+$box-shadow-outer-base: 0;
       $box-shadow-base: $box-shadow-inner-base, $box-shadow-outer-base;
 
 // text
 
-$text-shadow-dark-base;
-$text-shadow-light-base;
+$text-shadow-dark-base: 0;
+$text-shadow-light-base: 0;
 
 /*
 ======================================================================

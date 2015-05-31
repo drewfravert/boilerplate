@@ -1,12 +1,20 @@
 {
   "name": "",
   "version": "0.0.0",
+  "description": "",
+  "author": "",
   "homepage": "",
   "license": "",
   "contributors": {},
   "main": "",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
   "repository": {
-    "type": "",
+    "type": "git",
     "url": ""
   },
   "bugs": {
@@ -14,11 +22,25 @@
     "email": ""
   },
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.3.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-csscomb": "^3.0.3",
+    "gulp-csslint": "^0.1.5",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4"
   },
   "dependencies": {
-    "lodash": "^3.7.0",
-    "uglify-js": "^2.4.20"
+    "lodash": "^3.9.3"
   },
   "private": true
 }

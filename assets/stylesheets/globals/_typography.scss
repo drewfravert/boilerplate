@@ -60,6 +60,6 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 pre, code, kbd, samp {
   font-family: $monospace-type-family;
-  @include word-wrap(break-word);
+  word-wrap: break-word;
 }
 pre { white-space: pre-wrap; }
