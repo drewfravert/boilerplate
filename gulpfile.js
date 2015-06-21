@@ -4,6 +4,7 @@
 ============================================================
 */
 
+// enable strict mode
 'use strict';
 
 /*
@@ -22,7 +23,7 @@ var gulp         = require('gulp'),
     imagemin     = require('gulp-imagemin'),
     jscs         = require('gulp-jscs'),
     jshint       = require('gulp-jshint'),
-    manifest     = require('gulp-manifest'),
+    mocha        = require('gulp-mocha'),
     notify       = require('gulp-notify'),
     plumber      = require('gulp-plumber'),
     rename       = require('gulp-rename'),
@@ -83,7 +84,7 @@ gulp.task('exportCSS', function() {
     .pipe(rename({
         extname: '.min.css'
       }))
-    .pipe(gulp.dest(styles));
+    .pipe(gulp.dest('.'));
 
 });
 
@@ -91,14 +92,14 @@ gulp.task('exportCSS', function() {
 gulp.task('exportJS', function() {
 
   // prepare js
-  return gulp.src(scripts + '*.js.erb')
+  return gulp.src(scripts + 'application.js')
     .pipe(concat('application.js'))
     .pipe(jshint({}))
     .pipe(uglify())
     .pipe(rename({
         extname: '.min.js'
       }))
-    .pipe(gulp.dest(scripts));
+    .pipe(gulp.dest('.'));
 
 });
 
@@ -129,7 +130,7 @@ gulp.task('watch:styles', function() {
 
 // watch javascripts directory
 gulp.task('watch:scripts', function() {
-  return gulp.watch(scripts + '*.js.erb', ['exportJS']);
+  return gulp.watch(scripts + '/**/*.js', ['exportJS']);
 });
 
 // watch images directory

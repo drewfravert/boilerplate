@@ -92,9 +92,7 @@
     },
     init: function() {},
     initModal: function() {},
-    initRegistrationForm: function() {},
     bindModal: function() {},
-    bindRegistrationForm: function() {},
 
     /*
     ============================================================

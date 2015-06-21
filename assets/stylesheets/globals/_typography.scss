@@ -4,62 +4,79 @@
 ======================================================================
 */
 
-h1, h2, h3, h4, h5, h6 { font-family: $heading-type-family; }
+h1, h2, h3, h4, h5, h6 { font-family: $heading-font; }
+
 h1 {
   font-size: $h1-px;
   font-size: $h1-rem;
   line-height: $h1-lh;
 }
+
 h2 {
   font-size: $h2-px;
   font-size: $h2-rem;
   line-height: $h2-lh;
 }
+
 h3 {
   font-size: $h3-px;
   font-size: $h3-rem;
   line-height: $h3-lh;
 }
+
 h4 {
   font-size: $h4-px;
   font-size: $h4-rem;
   line-height: $h4-lh;
 }
+
 h5 {
   font-size: $h5-px;
   font-size: $h5-rem;
   line-height: $h5-lh;
 }
+
 h6 {
   font-size: $h6-px;
   font-size: $h6-rem;
   line-height: $h6-lh;
 }
+
 a {
   color: $link-base;
+
   [href] {}
   &:hover { color: $link-hover; }
   &:active {}
   &:focus {}
   &:visited {}
 }
+
 strong, b { font-weight: 700; }
+
 em, i { font-style: italic; }
+
 small {
   font-size: $small-px;
   font-size: $small-rem;
 }
+
 blockquote, q {}
+
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
+
 sup { top: -0.5em; }
+
 sub { bottom: -0.25em; }
+
 pre, code, kbd, samp {
-  font-family: $monospace-type-family;
+  font-family: $monospace-font;
   word-wrap: break-word;
 }
+
 pre { white-space: pre-wrap; }

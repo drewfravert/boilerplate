@@ -20,7 +20,7 @@ $white: #fff;
 
 // brand
 
- $brand-base;
+ $brand-base: $black;
  $brand-dark: darken($brand-base, 10);
 $brand-light: lighten($brand-base, 10);
 
@@ -187,10 +187,10 @@ $letter-spacing-base: 0;
 ======================================================================
 */
 
-  $animation-name-base: "";
-$animation-timing-base: 0ms;
-$animation-easing-base: ease;
-       $animation-base: $animation-base-name $animation-base-timing $animation-base-easing;
+  $base-animation-name: "";
+$base-animation-timing: 0ms;
+$base-animation-easing: ease;
+       $base-animation: $base-animation-name $base-animation-timing $base-animation-easing;
 
 /*
 ======================================================================

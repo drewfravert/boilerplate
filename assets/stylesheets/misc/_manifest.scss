@@ -4,6 +4,6 @@
 ======================================================================
 */
 
-@include "misc";
-@include "browser";
-@include "print";
+@import "misc";
+@import "browser";
+@import "print";
