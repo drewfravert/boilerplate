@@ -1,2 +1,8 @@
-# ignore node packages
-/node_modules
+# dist files
+dist
+
+# NPM dependencies
+node_modules
+
+# NPM crash log
+npm-debug.log

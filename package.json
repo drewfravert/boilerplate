@@ -1,46 +1,53 @@
 {
-  "name": "",
-  "version": "0.0.0",
-  "description": "",
+  "private": true,
+  "name": "boilerplate",
   "author": "",
   "homepage": "",
-  "license": "",
-  "contributors": {},
-  "main": "",
-  "contributors": [
-    {
-      "name": "",
-      "email": ""
-    }
-  ],
+  "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:drewfravert/boilerplate.git"
   },
   "bugs": {
-    "url": "",
-    "email": ""
+    "url": "https://github.com/drewfravert/boilerplate/issues",
+    "email": "email@boilerplate.com"
   },
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.3.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-csscomb": "^3.0.3",
-    "gulp-csslint": "^0.1.5",
-    "gulp-handlebars": "^4.0.0",
-    "gulp-imagemin": "^2.2.1",
-    "gulp-jscs": "^1.6.0",
-    "gulp-jshint": "^1.11.0",
-    "gulp-mocha": "^2.1.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.0.1",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "^3.0.4"
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.development.js --color --open",
+    "build": "webpack --config webpack.production.js --color"
   },
   "dependencies": {
-    "lodash": "^3.9.3"
+    "lodash": "^4.17.15",
+    "vue": "^2.6.11"
   },
-  "private": true
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "favicons-webpack-plugin": "^3.0.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.4.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "prettier": "^2.0.2",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "terser-webpack-plugin": "^1.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
 }

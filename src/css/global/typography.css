@@ -1,0 +1,112 @@
+/*
+==========================================================================================
+  Typography
+==========================================================================================
+*/
+
+.heading {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-heading);
+  color: var(--color-heading);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-heading);
+
+  &:not(:last-child) { margin-bottom: 0.25em; }
+}
+
+.text-xxxl {
+  font-size: var(--font-size-xxxl);
+  line-height: var(--line-height-xxxl);
+}
+
+.text-xxl {
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-xxl);
+}
+
+.text-xl {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+}
+
+.text-larger {
+  font-size: var(--font-size-larger);
+  line-height: var(--line-height-larger);
+}
+
+.text-large {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+
+.text-base {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+.text-small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-smaller {
+  font-size: var(--font-size-smaller);
+  line-height: var(--line-height-smaller);
+}
+
+.text-smallest {
+  font-size: var(--font-size-smallest);
+  line-height: var(--line-height-smallest);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+sub,
+sup {
+  vertical-align: initial;
+  font-size: initial;
+}
+
+@supports (font-variant-position: sub) {
+  sub,
+  sup {
+    vertical-align: baseline;
+    font-size: inherit;
+  }
+
+  sub { font-variant-position: sub; }
+
+  sup { font-variant-position: super; }
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--font-family-monospace);
+  word-wrap: break-word;
+}
+
+pre { white-space: pre-wrap; }
+
+p { margin-bottom: 1em; }

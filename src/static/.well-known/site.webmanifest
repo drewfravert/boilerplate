@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "short_name": "",
+  "lang": "en-US",
+  "start_url": "/?utm_source=homescreen",
+  "display": "browser",
+  "theme_color": "",
+  "background_color": "",
+  "description": "",
+  "categories": [],
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot.webp",
+      "sizes": "1920x1080",
+      "type": "image/webp"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "",
+      "url": "",
+      "id": ""
+    }
+  ],
+  "prefer_related_applications": false
+}

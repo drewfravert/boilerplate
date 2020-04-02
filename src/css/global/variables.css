@@ -1,0 +1,115 @@
+/*
+==========================================================================================
+  Variables
+==========================================================================================
+*/
+
+:root {
+  /* grids */
+  --columns-base: 24;
+
+  /* spacing */
+  --spacing: 0.0rem;
+
+  /* borders */
+  --border-width-base: 0.0rem;
+  --border-style-base: solid;
+
+  --border-color-light: hsla(0, 0%, 0%, 5%);
+  --border-color-base: hsla(0, 0%, 0%, 10%);
+  --border-color-dark: hsla(0, 0%, 0%, 15%);
+
+  --border-light: var(--border-width-base) var(--border-style-base) var(--border-color-light);
+  --border-base: var(--border-width-base) var(--border-style-base) var(--border-color-base);
+  --border-dark: var(--border-width-base) var(--border-style-base) var(--border-color-dark);
+
+  --border-radius-base: 0.0rem;
+  --border-radius-relative: 0.0em;
+  --border-radius-round: 100rem;
+
+  /* font families */
+  --font-family-base: "";
+  --font-family-monospace: monospace;
+  --font-family-fallback: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+
+  /* font sizes */
+  --font-size-xxxl: 3.0rem;
+  --font-size-xxl: 2.4rem;
+  --font-size-xl: 2.0rem;
+  --font-size-large: 1.8rem;
+  --font-size-base: 1.6rem;
+  --font-size-small: 1.4rem;
+  --font-size-smaller: 1.2rem;
+  --font-size-smallest: 1.0rem;
+
+  /* font weights */
+  --font-weight-thin: 200;
+  --font-weight-light: 300;
+  --font-weight-book: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 800;
+
+  --font-weight-base: var(--font-weight-book);
+  --font-weight-heading: var(--font-weight-bold);
+
+  /* colors */
+  --color-black: hsl(0, 0%, 0%);
+  --color-darkestgray: hsl(0, 0%, 12.5%);
+  --color-darkergray: hsl(0, 0%, 25%);
+  --color-darkgray: hsl(0, 0%, 37.5%);
+  --color-gray: hsl(0, 0%, 50%);
+  --color-lightgray: hsl(0, 0%, 62.5%);
+  --color-lightergray: hsl(0, 0%, 75%);
+  --color-lightestgray: hsl(0, 0%, 87.5%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-primary: hsl(0, 0%, 0%);
+  --color-secondary: hsl(0, 0%, 0%);
+  --color-tertiary: hsl(0, 0%, 0%);
+
+  --color-base: hsl(0, 0%, 0%);
+  --color-heading: hsl(0, 0%, 0%);
+  --color-link: inherit;
+
+  --color-placeholder: var(--color-gray);
+  --color-selection: inherit;
+
+  --color-dribbble: hsl(337, 79%, 61%);
+  --color-facebook: hsl(220, 43%, 41%);
+  --color-github: hsl(210, 12%, 16%);
+  --color-instagram: hsl(0, 0%, 15%);
+  --color-linkedin: hsl(201, 100%, 35%);
+  --color-pinterest: hsl(351, 100%, 45%);
+  --color-spotify: hsl(141, 73%, 42%);
+  --color-twitter: hsl(203, 89%, 53%);
+  --color-vimeo: hsl(195, 83%, 51%);
+
+  /* line heights */
+  --line-height-xxxl: 1;
+  --line-height-xxl: 1;
+  --line-height-xl: 1;
+  --line-height-large: 1.5;
+  --line-height-base: 1.5;
+  --line-height-small: 1.5;
+  --line-height-smaller: 1.5;
+  --line-height-smallest: 1.5;
+
+  /* letter spacings */
+  --letter-spacing-base: 0.0em;
+  --letter-spacing-heading: 0.0em;
+
+  /* widths */
+  --width-min: 36rem;
+  --width-max: 192rem;
+}
+
+/* variable font support */
+@supports (font-variation-settings: normal) {}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce) {}
