@@ -1,16 +1,17 @@
-# Personal frontend boilerplate template
+# Boilerplate Template
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/drewfravert/boilerplate/blob/master/LICENSE.txt)
 [![devDependency Status](https://david-dm.org/drewfravert/boilerplate/dev-status.svg)](https://david-dm.org/drewfravert/boilerplate#info=devDependencies)
 [![github-stars-image](https://img.shields.io/github/stars/drewfravert/boilerplate.svg?label=github%20stars)](https://github.com/drewfravert/boilerplate)
 
-Personal boilerplate code for typical web apps or sites.
+Boilerplate code for typical web apps or sites.
 
-* Source: [https://github.com/drewfravert/boilerplate](https://github.com/drewfravert/boilerplate)
 
-## Quick start
+## Quick Start
 
-* Clone the git repo with `git clone https://github.com/drewfravert/boilerplate.git`
+* Clone this repo with `git clone https://github.com/drewfravert/boilerplate.git`
+* Generate a new template at [https://github.com/drewfravert/boilerplate/generate](https://github.com/drewfravert/boilerplate/generate)
+
 
 ## License
 
