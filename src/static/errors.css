@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
   font-size: 1.6rem;
   color: #808080;
   line-height: 1.5;

@@ -1,53 +1,51 @@
 {
-  "private": true,
-  "name": "boilerplate",
+  "name": "",
   "author": "",
   "homepage": "",
+  "license": "",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:drewfravert/boilerplate.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/drewfravert/boilerplate/issues",
-    "email": "email@boilerplate.com"
+    "url": "",
+    "email": ""
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack.development.js --color --open",
-    "build": "webpack --config webpack.production.js --color"
+    "deploy": "webpack --config webpack.production.js --color",
+    "watch": "webpack --config webpack.development.js --watch --color"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "autoprefixer": "^9.7.4",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
-    "babel-plugin-lodash": "^3.3.4",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^3.4.2",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
     "cssnano": "^4.1.10",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
-    "favicons-webpack-plugin": "^3.0.1",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
     "file-loader": "^6.0.0",
-    "html-loader": "^1.0.0",
-    "html-webpack-plugin": "^4.0.4",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
-    "postcss-nested": "^4.2.1",
-    "prettier": "^2.0.2",
-    "stylelint": "^13.2.1",
+    "postcss-nested": "^4.2.3",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0",
-    "terser-webpack-plugin": "^2.3.5",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
-  }
+    "stylelint-order": "^4.1.0",
+    "terser-webpack-plugin": "^4.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.1.1"
+  },
+  "private": true
 }
