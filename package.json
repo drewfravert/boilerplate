@@ -38,7 +38,7 @@
     "optimize-css-assets-webpack-plugin": "6.0.1",
     "postcss-loader": "6.1.1",
     "postcss-nested": "5.0.6",
-    "prettier": "2.4.0",
+    "prettier": "2.4.1",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "22.0.0",
     "stylelint-order": "4.1.0",
