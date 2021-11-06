@@ -29,7 +29,7 @@
     "copy-webpack-plugin": "9.0.1",
     "css-loader": "6.5.1",
     "cssnano": "5.0.9",
-    "eslint": "8.1.0",
+    "eslint": "8.2.0",
     "eslint-config-prettier": "8.3.0",
     "file-loader": "6.2.0",
     "html-loader": "3.0.1",
