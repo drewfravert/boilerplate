@@ -37,7 +37,7 @@
     "mini-css-extract-plugin": "2.7.2",
     "optimize-css-assets-webpack-plugin": "6.0.1",
     "postcss-loader": "7.0.2",
-    "postcss-nested": "6.0.0",
+    "postcss-nested": "6.0.1",
     "prettier": "2.8.4",
     "stylelint": "15.1.0",
     "stylelint-config-standard": "30.0.1",
