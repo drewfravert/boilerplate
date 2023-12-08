@@ -5120,10 +5120,10 @@ stylelint-order@6.0.3:
     postcss "^8.4.21"
     postcss-sorting "^8.0.2"
 
-stylelint@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.0.0.tgz#974a56d27b403b3a8aa8552523d6716197d20d14"
-  integrity sha512-AKwRjOL+a+QYIrjQLaY1uqsxEd2I/QlYvExelWxJ5hbobfBNzM0hkIc6d+CSVJP6KaVme9D3Jlr7VIXfXmHDKA==
+stylelint@16.0.1:
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.0.1.tgz#613ad8841f78e10bef48bf953d759e0f73d3e153"
+  integrity sha512-nPO7f7JBxX0gPwdQs1fBQL+b0PabHykxSQ9HtpobbtV7pe2lb/nmlqxKepPUwHJTi9P9iu+Hkwt1mdmOnkkTVw==
   dependencies:
     "@csstools/css-parser-algorithms" "^2.3.2"
     "@csstools/css-tokenizer" "^2.2.1"
