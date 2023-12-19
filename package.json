@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "lodash": "4.17.21",
-    "vue": "3.3.12"
+    "vue": "3.3.13"
   },
   "devDependencies": {
     "@babel/core": "7.23.6",
