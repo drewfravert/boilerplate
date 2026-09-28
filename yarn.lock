@@ -2295,16 +2295,16 @@ cssnano-preset-default@^5.0.1:
     postcss-svgo "^5.0.0"
     postcss-unique-selectors "^5.0.0"
 
-cssnano-preset-default@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-9.1.0.tgz#c8cce46f22097a60f839a857b53afed608365762"
-  integrity sha512-C7VBAFjYgJhIc2pt7ggIkoaEKsjao0nwMun5c7rcj9ZtVQEAFpkBz8zxAWejYdZRWQbVuDFgdc3YstT0I9LVug==
+cssnano-preset-default@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-9.1.1.tgz#74e26d4770a9d8320cb8242301d11bab417c06ab"
+  integrity sha512-c+9shS5wCw+hpS2TzZ4ndZQzM4ffMjzKqfPc/xxzUJ98J7iNJVfuYuFEFuLHaaCW7oIZAEnc0GLe6Lo46Rcikg==
   dependencies:
     browserslist "^4.29.1"
-    cssnano-utils "^8.0.0"
+    cssnano-utils "^8.0.1"
     postcss-calc "^11.2.1"
     postcss-colormin "^9.0.4"
-    postcss-convert-values "^9.0.4"
+    postcss-convert-values "^9.0.5"
     postcss-discard-comments "^9.0.4"
     postcss-discard-duplicates "^9.0.4"
     postcss-discard-empty "^9.0.4"
@@ -2342,12 +2342,19 @@ cssnano-utils@^8.0.0:
   dependencies:
     "@csstools/css-tokenizer" "^4.0.2"
 
-cssnano@9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-9.1.0.tgz#cfe7d39ef987acdb86479a491d7ae0c7b9de374f"
-  integrity sha512-ae04R4AveAXRs1M29hDNrKcfsLv/Ef2nA21wnCaWKqcMcCEUGBx8uRz4JYvYkArF5agDW1hhv1c9sr1d+6dT8w==
+cssnano-utils@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-8.0.1.tgz#8c5eb5b7b73622756559300fb6954945ad186d84"
+  integrity sha512-KF2NfGI/na0wEemV8X7KQbisJS0QY77vaGCJ/3RuXfWrgg/qlq8vHcfSAtzrCrOHwaGHW02Ra1anDyuQ7M520A==
   dependencies:
-    cssnano-preset-default "^9.1.0"
+    "@csstools/css-tokenizer" "^4.0.2"
+
+cssnano@9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-9.1.1.tgz#95f2efa4c3c9b919d469d0e5eaeb7cb6637f357f"
+  integrity sha512-Jm3JBThKaUOo6Q9Buyjez+ww/SsgbwmLgg8H5fIf+wAAv5clG2x1KupoQR2PejzEbRyTVqVu93nORWT/320J/g==
+  dependencies:
+    cssnano-preset-default "^9.1.1"
 
 cssnano@^5.0.2:
   version "5.0.2"
@@ -3910,13 +3917,13 @@ postcss-convert-values@^5.0.0:
   dependencies:
     postcss-value-parser "^4.1.0"
 
-postcss-convert-values@^9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-9.0.4.tgz#21cfdd0ad31056eb76de51115628bea0ea1f4dab"
-  integrity sha512-Z1arFr4Wk+r6f+YEFmO8r+LK7IZub/QluJ6b69hgu5A9TqhfmxHaxPkt+b9gZpsjour7+MlDBFWPgTS1ZjINBQ==
+postcss-convert-values@^9.0.5:
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-9.0.5.tgz#44386a76d824d74e4e87ac302119745c5d9bc33e"
+  integrity sha512-grpRo1ESwgz/z8cL4GePFEyozuvo72htqHQdKM63+Uk1b3+UFURRkLwpo37EBm+v7VUOLjXFbvq6vHawOcz7IQ==
   dependencies:
     browserslist "^4.29.1"
-    cssnano-utils "^8.0.0"
+    cssnano-utils "^8.0.1"
 
 postcss-discard-comments@^5.0.0:
   version "5.0.0"
