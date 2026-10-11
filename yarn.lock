@@ -4482,15 +4482,6 @@ postcss@^8.5.26, postcss@^8.5.28:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-postcss@^8.5.8:
-  version "8.5.8"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.8.tgz#6230ecc8fb02e7a0f6982e53990937857e13f399"
-  integrity sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==
-  dependencies:
-    nanoid "^3.3.11"
-    picocolors "^1.1.1"
-    source-map-js "^1.2.1"
-
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
@@ -4877,12 +4868,12 @@ stylelint-config-standard@40.0.0:
   dependencies:
     stylelint-config-recommended "^18.0.0"
 
-stylelint-order@8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-8.1.1.tgz#75fa085cf4cce68eab7f438b5df7ef1597908ea2"
-  integrity sha512-LqsEB6VggJuu5v10RtkrQsBObcdwBE7GuAOlwfc/LR3VL/w8UqKX2BOLIjhyGt0Gne/njo7gRNGiJAKhfmPMNw==
+stylelint-order@8.1.2:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-8.1.2.tgz#a804ca5431881a11310d57525e9f0c71192b8ad1"
+  integrity sha512-A+bxnIMVmzkWr6KlIwHnjQqTWBXPlIixoJa962BpK1N5bkhq3lXhKHjs4fY8ecooktjd3B3TtRiqoLSj+MfbxQ==
   dependencies:
-    postcss "^8.5.8"
+    postcss "^8.5.28"
     postcss-sorting "^10.0.0"
 
 stylelint@17.16.0:
